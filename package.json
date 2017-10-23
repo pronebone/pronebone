@@ -1,0 +1,36 @@
+{
+  "name": "pronebone",
+  "version": "0.0.1",
+  "description": "Data Science for Porn",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/*.d.ts",
+    "lib/*.js",
+    "style/*.css"
+  ],
+  "directories": {
+    "lib": "lib/"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.2",
+    "typescript": "~2.4.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pronebone/pronebone.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pronebone/pronebone/issues"
+  },
+  "homepage": "https://github.com/pronebone/pronebone"
+}
